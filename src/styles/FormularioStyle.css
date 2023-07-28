@@ -1,0 +1,379 @@
+.login {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    background-color: #f5f6f7;
+    background-image: url('C:\Proyecto\proyecto-integrador\src\img\logoEmpresa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+*/ .imagen-fondo {
+    width: 100%;
+    max-width: 298px;
+    margin-bottom: 25px;
+}
+
+.formulario {
+    background-color: #0c3c63;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.body {
+    position: relative;
+    background-color: rgb(63, 77, 77);
+    margin: 0;
+    width: 100%;
+    height: 900px;
+}
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.botoncito {
+    background-color: rgba(229.49999392032623, 42.07500547170639, 42.07500547170639, 1);
+    width: auto;
+}
+
+.madera {
+    text-align: center;
+    color: red;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+}
+
+.mb-3 {
+    font-size: 18pt;
+    background-color: #282c34;
+}
+
+.mb-2 {
+    display: inline-block;
+}
+
+.parrafo2 {
+    position: relative;
+    top: 40px;
+    margin: 50px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.titulo {
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(8, 8, 107);
+}
+
+.cont {
+    position: relative;
+    left: 150px;
+    margin-top: 70px;
+    background-color: hsla(220, 5%, 12%, 0.39);
+    width: 80%;
+    height: 700px;
+    color: rgb(34, 1, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 14pt;
+    line-height: 2;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+
+
+.App-header {
+    background-color: #0a0b0b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #0c0e0f;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.container {
+    color: rgb(29, 94, 94);
+
+}
+
+table, th, td {
+    border-spacing: 0.5rem;
+    padding: 0.5rem;
+    font-size: 18;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #050d62;
+    text-align: center;
+    margin: 10px 50px 10px 120px;
+    border: 1px solid rgb(244, 241, 241);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+@keyframes a {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #0f1f6f;
+    margin-bottom: 10px;
+}
+
+.text img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 10px;
+    color: #046f93;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #3b8682;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+body,
+.intro {
+    height: 100%;
+}
+
+.card-header {
+    border-bottom: 3px solid #39c0ed;
+}
+
+.form-control {
+    border-color: transparent;
+}
+
+.input-group>.form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0 0 0 1px transparent;
+}
+
+.form-group2 {
+    margin-bottom: 10px;
+    color: #054a4a;
+}
+
+.custom-navbar {
+    background-color: rgb(72, 144, 180);
+    /* Reemplaza "blue" por el color deseado */
+}
+
+
+.action-button {
+    margin-bottom: 0.5rem;
+    /* Ajusta el valor según la separación deseada */
+}
+
+
+
+/* Estilos generales */
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del formulario */
+.login-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form .label-input {
+    display: block;
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.login-form .form-control {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+.login-form .btn-primary {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+/* Estilos de la tabla */
+.table-minimal {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-minimal th,
+.table-minimal td {
+    padding: 10px;
+    border-bottom: 1px solid #a09b9b;
+}
+
+.table-minimal th {
+    background-color: #f7f7f7;
+    color: #26059c;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .login-form {
+        padding: 10px;
+    }
+
+    .table-minimal th,
+    .table-minimal td {
+        padding: 3px;
+        font-size: 14px;
+    }
+}

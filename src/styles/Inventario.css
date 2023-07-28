@@ -1,0 +1,145 @@
+.parrafo {
+    margin-left: 500px;
+}
+
+.parrafo2 {
+    position: center;
+}
+
+.correo {
+    margin-top: -285px;
+    margin-left: 140px;
+}
+
+.contraseña {
+    top: 220px;
+    left: 610px;
+    position: absolute;
+
+}
+
+.correo1 {
+    top: 190px;
+    left: 600px;
+    width: 500px;
+    position: absolute;
+
+}
+
+.contraseña1 {
+    top: 30px;
+    left: -10px;
+    width: 500px;
+    position: absolute;
+
+}
+
+#btn {
+    top: 300px;
+    left: 800px;
+    position: absolute;
+
+}
+
+.cont {
+    top: 95px;
+    position: absolute;
+    left: 150px;
+    background: linear-gradient(#000046, #1cb5e0);
+    width: 80%;
+    height: 500px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.cont1 {
+    margin-top: 320px;
+    background: linear-gradient(#000046, #1cb5e0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 720px;
+}
+
+.titulo {
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.titulo2 {
+    margin: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.titulo3 {
+    margin-left: 90px;
+    font-size: 22px;
+    color: black;
+}
+
+.App-logo {
+    margin-top: -30px;
+    height: 40vmin;
+    margin-left: -600px;
+}
+
+.inf {
+    margin-top: 120px;
+}
+
+.inf1 {
+    margin-top: 370px;
+}
+
+.tabla {
+    text-align: center;
+    width: 1000px;
+    margin-left: 100px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -100px;
+    margin-left: 390px;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -55px;
+    margin-left: 390px;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -10px;
+    margin-left: 390px;
+}
+
+.contenedor3 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 125px;
+    margin-left: -710px;
+}
+
+.contenedor4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 125px;
+    margin-left: -710px;
+
+}
+
+.contenedor5 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 125px;
+    margin-left: -490px;
+}

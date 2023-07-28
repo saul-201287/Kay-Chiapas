@@ -1,0 +1,113 @@
+.inicio {
+  float: right;
+  margin: 15px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.carousel-inner {
+  left: 65px;
+}
+
+input {
+  position: relative;
+  margin-left: 12px;
+
+}
+
+#cont1 {
+  background-image: url('../img/logoEmpresa.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  background-size: 100% 400px;
+}
+
+#cont2 {
+  background: linear-gradient(hsla(240, 14%, 95%, 0.973), hsla(231, 27%, 81%, 0.753));
+}
+
+#cont3 {
+  background: linear-gradient(hsla(231, 27%, 81%, 0.753), rgba(0, 0, 255, 0.521));
+}
+
+#cont4 {
+  background-color: #7B9DB4;
+}
+
+.contenedor {
+  position: relative;
+  width: 200px;
+  height: 200px;
+
+}
+
+#card {
+  border-color: gray;
+  border-width: 4px;
+  border-style: groove;
+}
+
+h4 {
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+}
+
+.login {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+  background-color: #f5f6f7;
+  background-image: url('../img/logoEmpresa.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  color: rgb(221, 239, 239);
+}
+
+.formulario {
+  background-color: #0c3c63;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.submit {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  color: #b7d8d8;
+}
